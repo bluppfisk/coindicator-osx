@@ -4,6 +4,8 @@
 
 Coindicator is a cryptocurrency (Bitcoin etc) price indicator applet for Mac OSX. It shows latest 24 hour price and also bid, high low, ask prices from the indicator menu.
 
+**This is a stub! I haven't had the time to port the menus to OSX yet so for now it just indicates the price.**
+
 Right now it supports the following exchanges
 
 * [Kraken](https://www.kraken.com)
