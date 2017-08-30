@@ -4,9 +4,7 @@
 
 from gi.repository import Gio
 
-__author__ = "nil.gradisnik@gmail.com"
-
-SCHEMA_ID = 'org.nil.indicator.coinprice'
+SCHEMA_ID = 'org.blf.indicator.coin'
 
 DEFAULTS = {
     'refresh': 30,
@@ -19,10 +17,10 @@ class Settings(object):
     def __init__(self, manual_settings=None):
         self.settings = None
         self.manual_settings = None
-        
+
         if manual_settings:
             self.manual_settings = manual_settings.split(':')
-        else:        
+        else:
             source = Gio.SettingsSchemaSource.get_default()
             if source.lookup(SCHEMA_ID, True):
                 self.settings = Gio.Settings(SCHEMA_ID)

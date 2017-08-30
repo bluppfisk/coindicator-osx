@@ -2,8 +2,6 @@
 
 # Utils
 
-__author__ = "nil.gradisnik@gmail.com"
-
 currency = {
     'usd': '$',
     'eur': '€'

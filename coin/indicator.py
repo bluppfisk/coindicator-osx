@@ -19,7 +19,6 @@ import utils
 from settings import Settings
 from exchange.kraken import CONFIG as KrakenConfig
 
-__author__ = "nil.gradisnik@gmail.com"
 
 REFRESH_TIMES = [  # seconds
     '3',

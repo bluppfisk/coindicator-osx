@@ -1,15 +1,15 @@
 # Coin Price configuration
 
 app:
-  name: Coin Price indicator
-  description: Coin Price is a crypto curency price indicator applet for Ubuntu
-  url: https://github.com/nilgradisnik/coinprice-indicator
-  version: "0.3.0"
+  name: Coindicator for OSX
+  description: Coindicator is a cryptocurrency price indicator applet for Mac OSX, and a direct port of Nil Gradisnik's Coin Price Indicator (https://github.com/bluppfisk/coinprice-indicator)
+  url: https://github.com/bluppfisk/coindicator
+  version: "0.1"
 
 author:
-  name: Nil Gradisnik
-  email: nil.gradisnik@gmail.com
-  copyright: Copyright (C) 2014 Nil Gradisnik
+  name: Sander Van de Moortel
+  email: sander.vandemoortel@gmail.com
+  copyright: Copyright (C) 2017 Sander Van de Moortel
 
 artist:
   name: Alicen Maniscalco

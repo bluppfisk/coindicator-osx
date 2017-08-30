@@ -3,8 +3,6 @@
 # Kraken
 # https://www.kraken.com/help/api#public-market-data
 
-__author__ = "nil.gradisnik@gmail.com"
-
 from gi.repository import GLib
 
 import requests

@@ -3,8 +3,6 @@
 # Bitstamp
 # https://www.bitstamp.net/api/
 
-__author__ = "nil.gradisnik@gmail.com"
-
 from gi.repository import GLib
 
 import requests

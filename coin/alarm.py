@@ -4,8 +4,6 @@
 
 # import notify2 as notify
 
-__author__ = "nil.gradisnik@gmail.com"
-
 
 class Alarm(object):
     def __init__(self, app_name, ceil=1000, floor=100):

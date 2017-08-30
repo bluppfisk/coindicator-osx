@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # Coin Price indicator
-# Nil Gradisnik <nil.gradisnik@gmail.com>
 
 import os
 import signal
@@ -14,8 +13,6 @@ from gi.repository import Gtk
 from indicator import Indicator
 from exchange.kraken import Kraken
 from exchange.bitstamp import Bitstamp
-
-__author__ = "nil.gradisnik@gmail.com"
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
