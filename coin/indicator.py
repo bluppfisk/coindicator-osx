@@ -60,8 +60,8 @@ class Indicator(object):
         # self.indicator.setName_(self.config['app']['name'] + "_" + str(counter))
         self.indicator.setEnabled_(True)
         self.indicator.setTitle_("syncing")
-        self.indicator.setTarget_(self)
-        self.indicator.setAction_('_menu')
+        # self.indicator.setTarget_(self)
+        # self.indicator.setAction_('_menu')
 
         self.logo_124px = GdkPixbuf.Pixbuf.new_from_file(self.config['project_root'] + '/resources/icon_32px.png')
 
@@ -78,16 +78,16 @@ class Indicator(object):
     def set_data(self, label, bid, high, low, ask, volume=None):
         self.indicator.setTitle_(label)
 
-        self.bid_item.get_child().set_text(bid)
-        self.high_item.get_child().set_text(high)
-        self.low_item.get_child().set_text(low)
-        self.ask_item.get_child().set_text(ask)
-
-        if volume:
-            self.volume_item.get_child().set_text(volume)
-            self.volume_item.show()
-        else:
-            self.volume_item.hide()
+        # self.bid_item.get_child().set_text(bid)
+        # self.high_item.get_child().set_text(high)
+        # self.low_item.get_child().set_text(low)
+        # self.ask_item.get_child().set_text(ask)
+        #
+        # if volume:
+        #     self.volume_item.get_child().set_text(volume)
+        #     self.volume_item.show()
+        # else:
+        #     self.volume_item.hide()
 
     def _start_exchange(self):
         ap = ''
