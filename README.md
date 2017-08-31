@@ -17,7 +17,7 @@ Coindicator is ported to Mac OSX from [Nil Gardisnik
 's Coinprice Indicator for Ubuntu Linux](https://github.com/nilgradisnik/coinprice-indicator)
 
 ## Requirements
-Should work on a standard Mac OSX installation with python3 and pip3 installed. Using gi, gtk, requests, pyyaml, notify2 libraries.
+Should work on a standard Mac OSX installation with python3 and pip3 installed. Using gi, gtk, requests, pyyaml, notify2, and pygobject libraries. In addition, it uses pyojbc to access OSX GUI features.
 
 Install python dependencies and install [GSettings schema](https://developer.gnome.org/gio/2.32/glib-compile-schemas.html) by running the following command
 ```
